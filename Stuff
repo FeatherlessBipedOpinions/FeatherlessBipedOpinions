@@ -1,0 +1,91 @@
+/* General Styles */
+
+/* ... Existing CSS rules ... */
+
+/* Mobile-friendly Styles */
+
+/* Adjust header styles for mobile */
+header {
+  padding: 10px;
+}
+
+/* Adjust navigation styles for mobile */
+nav ul {
+  flex-direction: column;
+}
+
+nav li {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+/* Adjust signup button styles for mobile */
+.signup-btn {
+  padding: 8px 16px;
+}
+
+/* Adjust logo styles for mobile */
+.logo img {
+  width: 80px; /* Adjust the width as per your logo size */
+}
+
+/* Adjust modal styles for mobile */
+.modal-content,
+.login-modal-content {
+  margin: 10% auto;
+  width: 90%;
+}
+
+/* Adjust close button styles for mobile */
+.close {
+  top: 5px;
+  right: 5px;
+}
+
+/* Adjust form styles for mobile */
+form {
+  width: 100%;
+}
+
+/* Adjust news preview styles for mobile */
+.news-preview {
+  padding: 10px;
+}
+
+.image {
+  height: 150px;
+}
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 480px) {
+  /* Modify any necessary styles for smaller screens */
+  
+  /* Example adjustments: */
+  
+  /* Header */
+  header {
+    padding: 5px;
+  }
+  
+  /* Navigation */
+  nav li a {
+    padding: 8px;
+  }
+  
+  /* Logo */
+  .logo img {
+    width: 60px;
+  }
+  
+  /* Modal */
+  .modal-content,
+  .login-modal-content {
+    margin: 5% auto;
+    width: 95%;
+  }
+  
+  /* News Preview */
+  .image {
+    height: 120px;
+  }
+}
